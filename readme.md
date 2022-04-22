@@ -8,7 +8,7 @@ Extend Path. Contained some overloaded ops based on pathlib.
 # method 1
 git clone https://github.com/csJoax/expath.git
 cd expath
-python ./setup.py install
+pip install .
 
 # method 2
 pip install git+https://github.com/csJoax/expath.git
