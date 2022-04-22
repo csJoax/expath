@@ -43,7 +43,7 @@ def find_version(*file_paths):
 here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the README file
-with open(path.join(here, 'README.md'), encoding='utf-8') as readme_file:
+with open(path.join(here, 'readme.md'), encoding='utf-8') as readme_file:
     long_description = readme_file.read()
 
 VERSION = find_version('expath', '__init__.py')
